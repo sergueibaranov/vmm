@@ -1,0 +1,177 @@
+
+/////  true = 1, false = 0
+
+cutVDDD_L0 1
+cutVDD_L0 1
+cutVDDP_L0 1
+cutVDAD_L0 1
+
+cutVDDD_L0POS 1
+cutVDD_L0POS 1
+cutVDDP_L0POS 1
+cutVDAD_L0POS 1
+
+cutsumcur 0
+cutBLINE 1
+cutART 0
+
+cutDEAD_CONT 0
+cutDEAD_L0 0
+cutDEAD_L0POS 0
+
+cutPDORMS_CONT = 0
+cutINTERCEPT_CONT = 0
+cutSLOPE_CONT = 0
+
+cutINTERCEPT_L0 0
+cutSLOPE_L0 0
+cutPDORMS_L0 0
+
+cutARTL0 1
+cutPDOMEAN_L0 1
+cutTDOMEAN_L0 1
+cutPDOMEAN_DDOL0 1
+
+cutINTERCEPT_L0POS 0
+cutSLOPE_L0POS 0
+cutPDORMS_L0POS 0
+
+cutARTL0pos 1
+cutPDOMEAN_L0POS 1
+cutTDOMEAN_L0POS 1
+cutPDOMEAN_DDOL0pos 1
+
+
+//////////////////////////////////////
+
+cutINTERCEPT_DDO 0
+cutSLOPE_DDO 0
+cutDEAD_DDO 0
+cutPDOMEAN_DDO 0
+
+cutINTERCEPT_DDOL0 0
+cutSLOPE_DDOL0 0
+cutDEAD_DDOL0 0
+
+cutINTERCEPT_DDOL0pos 0
+cutSLOPE_DDOL0pos 0
+cutDEAD_DDOL0pos 0
+
+
+
+MEANL 1 //on average check
+
+// bool variable end
+
+// variable not bool
+
+limit_max_ch 2
+limit_ch 0
+cut_entry 50
+
+//identify cut parameters
+cur_minL0 0
+cur_maxL0 1.7
+
+cur_minL0pos 0
+cur_maxL0pos 1.7
+
+mincurrentVDDP 0
+over_currentVDDP 0.5
+
+mincurrentVDD 0
+over_currentVDD 1
+
+mincurrentVDDD 0
+over_currentVDDD 0.6
+
+mincurrentVDAD 0
+over_currentVDAD 0.12
+
+mincurrentVDDP_L0POS 0
+over_currentVDDP_L0POS 0.5
+
+mincurrentVDD_L0POS 0
+over_currentVDD_L0POS 1
+
+mincurrentVDDD_L0POS 0
+over_currentVDDD_L0POS 0.6
+
+mincurrentVDAD_L0POS 0
+over_currentVDAD_L0POS 0.12
+
+cut_bline_min 155
+cut_bline_max 157
+
+cut_RMS_L0_pdo_min 0
+cut_RMS_L0_pdo_max 100
+
+cut_RMS_L0POS_pdo_min 0
+cut_RMS_L0POS_pdo_max 50
+
+cut_RMS_cont_pdo_min 0
+cut_RMS_cont_pdo_max 10
+
+cut_slope_Cont_pdo_min 0.5
+cut_slope_Cont_pdo_max 1
+
+cut_RMS_cont_tdo_min 2
+cut_RMS_cont_tdo_max 45
+
+cut_intercept_Cont_pdo_min -20
+cut_intercept_Cont_pdo_max 100
+
+cut_RMS_L0_tdo_min 7
+cut_RMS_L0_tdo_max 40
+
+cut_intercept_L0_pdo_min 0
+cut_intercept_L0_pdo_max 600
+
+cut_intercept_L0POS_pdo_min -50
+cut_intercept_L0POS_pdo_max 200
+
+cut_slope_L0_pdo_min 0
+cut_slope_L0_pdo_max 8
+
+cut_slope_L0POS_pdo_min 1
+cut_slope_L0POS_pdo_max 6
+
+cut_DDO_slope_min 0
+cut_DDO_slope_max 0.12
+
+cut_DDO_intercept_min -20
+cut_DDO_intercept_max 20
+
+cut_DDOL0_slope_min 0
+cut_DDOL0_slope_max 0.2
+
+cut_DDOL0_intercept_min -20
+cut_DDOL0_intercept_max 50
+
+cut_DDOL0pos_slope_min 0
+cut_DDOL0pos_slope_max 0.2
+
+cut_DDOL0pos_intercept_min -20
+cut_DDOL0pos_intercept_max 50
+
+///////       MEAN
+
+cut_PDOMEAN_L0_min 300
+cut_PDOMEAN_L0_max 950
+
+cut_TDOMEAN_L0_min 50
+cut_TDOMEAN_L0_max 250
+
+cut_PDOMEAN_L0POS_min 300
+cut_PDOMEAN_L0POS_max 950
+
+cut_TDOMEAN_L0POS_min 50
+cut_TDOMEAN_L0POS_max 250
+
+cut_DDOL0_MEAN_min 10
+cut_DDOL0_MEAN__max 63
+
+cut_DDOL0POS_MEAN_min 10
+cut_DDOL0POS_MEAN__max 63
+
+

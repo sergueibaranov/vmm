@@ -1,0 +1,22 @@
+
+# VMM run /rawdat/$DATE latest date 
+*/45  * * * * /data/software/baranov/soft/vmm_hourly.sh > /dev/null &
+15   23 * * * /data/software/baranov/soft/vmm_dayly.sh > /dev/null &
+
+ 30.oct.18 - Sergey.Baranov@cern.ch - Created, /rawdat and /output two directories must be defined 
+
+ Exaple:
+       time vmm_root_compile.sh VMM.cxx 09122018 &
+       time vmm_root_compile.sh VMM.cxx 26102018 18102018 &   12m
+       time vmm_root_compile.sh VMM.cxx $(ls /rawdata) &      3.6h
+
+ Running control:
+
+       tail -f  out/vmm.061218.log | grep "name=/output/"
+
+ Check "\ " missing:
+       find 26102018/ -name "\ "
+       find 26102018/ -name ".sys*"
+
+
+
